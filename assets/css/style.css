@@ -104,6 +104,8 @@
   cursor: pointer;
 }
 
+
+
 /* line 67, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_variables.scss */
 .boxed-btn:hover {
   background: #09cc7f;
@@ -237,16 +239,27 @@ p {
   background-image: url(../img/background-img/bg-img-3.jpg);
 }
 
+.logo{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logo-name{
   color: black;
   text-decoration: none;
   font-family: sans-serif;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 20px;
+  width: 80%;
+  color: #072366;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .logo-name:hover{
-  color: black;
+  color: green;
 }
 
 /* line 46, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
@@ -4583,6 +4596,8 @@ hr {
 }
 
 /* line 20, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_team.scss */
+
+
 .team-area .single-team .team-img {
   overflow: hidden;
   position: relative;
